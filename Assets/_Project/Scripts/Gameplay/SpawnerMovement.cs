@@ -100,7 +100,7 @@ namespace _Project.Scripts.Gameplay
             }
         }
 
-        private Vector3 ClampToBounds(Vector3 inVec)
+        public Vector3 ClampToBounds(Vector3 inVec)
         {
             inVec.x = Mathf.Clamp(inVec.x, minX, maxX);
             inVec.y = Mathf.Clamp(inVec.y, minY, maxY);

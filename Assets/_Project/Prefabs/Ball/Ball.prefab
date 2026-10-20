@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8229723298269807541}
   - component: {fileID: 544786474513711098}
   - component: {fileID: 6915116724772483877}
+  - component: {fileID: 7421725080269540953}
   m_Layer: 6
   m_Name: Ball
   m_TagString: Untagged
@@ -156,3 +157,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &7421725080269540953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2192965149454908061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c09a17958a94cf4893d0132cc9decb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::_Project.Scripts.Gameplay.Ball

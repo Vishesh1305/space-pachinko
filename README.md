@@ -24,7 +24,9 @@ Drop balls from a ship at the top of the board, watch them bounce through pegs a
  
 1. Open the project folder in Unity Hub with Unity 6.3 LTS.
 2. Open the scene `Assets/_Project/Scenes/Game.unity`.
-3. In the Game view, set the resolution to 768x1024 (portrait). If it is not in the list, add it with the + button at the bottom of the resolution dropdown.
+3. Resolution: this game is built for 768x1024 portrait. Before pressing Play, open the Game view’s resolution dropdown and select 768x1024. If it isn’t listed, click +, choose Type: Fixed Resolution, and enter Width 768 and Height 1024. Free Aspect crops or stretches the board.
+
+Start scene: open Assets/_Project/Scenes/MainMenu.unity and press Play.
 4. Press Play.
 ## Controls
  

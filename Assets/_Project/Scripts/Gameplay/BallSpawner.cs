@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -39,6 +40,8 @@ namespace _Project.Scripts.Gameplay
 
         private float _nextSpawnTime = 0f;
         private SpawnerMovement _spawnerMovement;
+
+        public static event Action OnBallSpawned;
 
         private void OnEnable()
         {
@@ -88,6 +91,8 @@ namespace _Project.Scripts.Gameplay
 
             Instantiate(ballPrefab, spawnPosition, Quaternion.identity, ballContainer);
             _nextSpawnTime = Time.time + spawnCooldown;
+            
+            OnBallSpawned?.Invoke();
         }
     }
 }
